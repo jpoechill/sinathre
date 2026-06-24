@@ -96,7 +96,7 @@ const services = [
   },
   {
     title: "Seller Representation",
-    description: "Exquisite marketing materials, prime placement on over 700 websites, and international name recognition to position your home in front of serious buyers worldwide.",
+    description: "Exquisite marketing materials, a proven track record of $340M+ in volume closed, and international name recognition to position your home in front of serious buyers worldwide.",
   },
   {
     title: "Luxury Properties",
@@ -194,7 +194,7 @@ export default function App() {
         {/* Left panel — dark */}
         <div className="flex flex-col justify-center px-8 lg:px-16 py-24 lg:py-32 bg-primary text-primary-foreground">
           <p className="text-xs tracking-[0.22em] uppercase mb-6" style={{ color: "#C4A35A" }}>
-            SF Bay Area · Independent Agent · Real Estate
+            SF Bay Area · Independent REALTOR® · Real Estate
           </p>
           <h1
             className="leading-[1.05] mb-8"
@@ -203,7 +203,7 @@ export default function App() {
             Your Home.<br />Your Story.<br />Your Move.
           </h1>
           <p className="text-base lg:text-lg max-w-md leading-relaxed mb-10" style={{ color: "rgba(245,240,232,0.7)" }}>
-            {"I'm Sinath Thi — an independent Bay Area real estate agent with 44 years of local knowledge, helping families buy, sell, and invest in extraordinary homes."}
+            {"I'm Sinath Thi — an independent Bay Area REALTOR® with 44 years of local knowledge, helping families buy, sell, and invest in extraordinary homes."}
           </p>
           <div className="flex gap-4 flex-wrap">
             <button
@@ -276,11 +276,11 @@ export default function App() {
               >
                 Independent
               </p>
-              <p className="text-xs mt-0.5" style={{ color: "#1C1C2E" }}>Real Estate Agent</p>
+              <p className="text-xs mt-0.5" style={{ color: "#1C1C2E" }}>REALTOR®</p>
             </div>
           </div>
           <div className="lg:col-span-7 lg:pl-8">
-            <p className="text-xs tracking-[0.22em] uppercase text-muted-foreground mb-4">More About Me</p>
+            <p className="text-xs tracking-[0.22em] uppercase text-muted-foreground mb-4">About Sinath</p>
             <h2
               className="leading-tight mb-6"
               style={{ fontFamily: "'Fraunces', serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 600 }}
@@ -289,18 +289,18 @@ export default function App() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sinath Thi is a native of Cambodia who has lived in the SF Bay Area for 44 years. As an immigrant, she knows how important resources and trusted guidance can be — experience she now brings to clients as an independent real estate agent.
+                Sinath Thi is a native of Cambodia who has lived in the SF Bay Area for 44 years. As an immigrant, she knows how important resources can be — and that is why she serves clients today as an independent REALTOR®, offering the personal attention and dedicated support every transaction deserves.
               </p>
               <p>
-                She has resources at her disposal that few REALTORS® have available. If you are an owner considering selling your home, she offers exquisite marketing materials, prime placement on over 700 websites, and international name recognition.
+                She has resources at her disposal that few REALTORS® have available. If you are an owner considering selling your home, she has exquisite marketing materials, a proven track record of $340M+ in volume closed, and international name recognition.
               </p>
               <p>
-                If you are a buyer, she is the perfect agent to help you locate your dream home — with trusted lending partners to tailor the perfect loan and the market knowledge necessary to choose exactly the right property. No matter what goals or dreams you may have when it comes to property ownership, Sinath wants to help and can.
+                If you are a buyer, she is the perfect agent to help you locate your dream home — with trusted lending partners to tailor the perfect loan and provide the market knowledge necessary to choose exactly the right property. No matter what goals or dreams you may have when it comes to property ownership, Sinath wants to help and can.
               </p>
             </div>
             <div className="mt-10 flex gap-4 flex-wrap">
               {[
-                { label: "Affiliation", value: "Independent Agent" },
+                { label: "Affiliation", value: "Independent REALTOR®" },
                 { label: "Location", value: "Castro Valley, CA" },
                 { label: "Languages", value: "Central Khmer · English" },
               ].map((item) => (
