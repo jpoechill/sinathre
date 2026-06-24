@@ -92,11 +92,11 @@ const sold = [
 const services = [
   {
     title: "Buyer Representation",
-    description: "From first showing to closing day, I navigate every step with you — negotiation, inspection, financing, and beyond.",
+    description: "From first showing to closing day, I help you locate your dream home — with an in-house lender to tailor the perfect loan and the market knowledge to choose exactly the right property.",
   },
   {
     title: "Seller Representation",
-    description: "Strategic pricing, curated staging guidance, and targeted marketing that positions your home to attract serious buyers.",
+    description: "Exquisite marketing materials, prime placement on over 700 websites, and international name recognition to position your home in front of serious buyers worldwide.",
   },
   {
     title: "Luxury Properties",
@@ -194,7 +194,7 @@ export default function App() {
         {/* Left panel — dark */}
         <div className="flex flex-col justify-center px-8 lg:px-16 py-24 lg:py-32 bg-primary text-primary-foreground">
           <p className="text-xs tracking-[0.22em] uppercase mb-6" style={{ color: "#C4A35A" }}>
-            Alameda County · Bay Area · Luxury Real Estate
+            SF Bay Area · Coldwell Banker · Real Estate
           </p>
           <h1
             className="leading-[1.05] mb-8"
@@ -203,7 +203,7 @@ export default function App() {
             Your Home.<br />Your Story.<br />Your Move.
           </h1>
           <p className="text-base lg:text-lg max-w-md leading-relaxed mb-10" style={{ color: "rgba(245,240,232,0.7)" }}>
-            {"I'm Sinath Thi — a Alameda County real estate agent with 14 years of experience helping families find, sell, and invest in extraordinary homes."}
+            {"I'm Sinath Thi — a Bay Area real estate agent with 44 years of local knowledge, helping families buy, sell, and invest in extraordinary homes."}
           </p>
           <div className="flex gap-4 flex-wrap">
             <button
@@ -228,7 +228,7 @@ export default function App() {
             {[
               { value: "$340M+", label: "Volume Closed" },
               { value: "280+", label: "Homes Sold" },
-              { value: "14", label: "Years in Alameda" },
+              { value: "44", label: "Years in the Bay Area" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p
@@ -274,35 +274,35 @@ export default function App() {
                 className="text-2xl font-semibold"
                 style={{ fontFamily: "'Fraunces', serif", color: "#1C1C2E" }}
               >
-                Top 1%
+                Coldwell Banker
               </p>
-              <p className="text-xs mt-0.5" style={{ color: "#1C1C2E" }}>Alameda County Agents</p>
+              <p className="text-xs mt-0.5" style={{ color: "#1C1C2E" }}>Residential Brokerage</p>
             </div>
           </div>
           <div className="lg:col-span-7 lg:pl-8">
-            <p className="text-xs tracking-[0.22em] uppercase text-muted-foreground mb-4">About Sinath</p>
+            <p className="text-xs tracking-[0.22em] uppercase text-muted-foreground mb-4">More About Me</p>
             <h2
               className="leading-tight mb-6"
               style={{ fontFamily: "'Fraunces', serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 600 }}
             >
-              Real estate that feels personal, not transactional.
+              Buy, Sell, and Invest in Real Estate with Sinath
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Born and raised in the Bay Area, I've spent my entire adult life learning the nuances of Alameda County's neighborhoods — from the vibrant streets of Oakland and the family-friendly hills of Castro Valley to the charming downtowns of Fremont and the waterfront communities of San Leandro.
+                Sinath Thi is a native of Cambodia who has lived in the SF Bay Area for 44 years. As an immigrant, she knows how important resources can be — and that's why she joined Coldwell Banker Residential Brokerage.
               </p>
               <p>
-                Before real estate, I spent a decade in architecture and interior design. That background gives me an eye for structural quality, renovation potential, and the features that hold long-term value — insights I pass directly to every client I represent.
+                She has resources at her disposal that few REALTORS® have available. If you are an owner considering selling your home, she offers exquisite marketing materials, prime placement on over 700 websites, and international name recognition.
               </p>
               <p>
-                {"I'm a mother of two, a weekend trail runner, and a believer that where you live shapes who you become. I take that seriously in every transaction I manage."}
+                If you are a buyer, she is the perfect sales associate to help you locate your dream home — with an in-house lender to tailor the perfect loan and the market knowledge necessary to choose exactly the right property. No matter what goals or dreams you may have when it comes to property ownership, Sinath wants to help and can.
               </p>
             </div>
             <div className="mt-10 flex gap-4 flex-wrap">
               {[
-                { label: "License", value: "DRE #01922809" },
+                { label: "Brokerage", value: "Coldwell Banker Residential Brokerage" },
                 { label: "Location", value: "Castro Valley, CA" },
-                { label: "Designations", value: "CRS · ABR · SRES" },
+                { label: "Languages", value: "Central Khmer · English" },
               ].map((item) => (
                 <div key={item.label} className="border border-border px-5 py-3">
                   <p className="text-xs text-muted-foreground">{item.label}</p>
@@ -696,7 +696,7 @@ export default function App() {
             Sinath Thi
           </p>
           <p className="text-xs" style={{ color: "rgba(245,240,232,0.38)" }}>
-            © 2025 Sinath Thi Real Estate · DRE #01922809 · Castro Valley, CA
+            © 2025 Sinath Thi · Coldwell Banker Residential Brokerage · DRE #01922809 · Castro Valley, CA
           </p>
           <div className="flex gap-6 text-xs" style={{ color: "rgba(245,240,232,0.38)" }}>
             <a href="#" className="hover:opacity-70 transition-opacity">Privacy</a>
